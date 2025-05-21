@@ -127,8 +127,8 @@ STATIC_URL = 'static/'
 
 
 CORS_ALLOWED_ORIGINS = [
-    "http://localhost:3000",
-    "http://192.168.1.24:3000",
+    "http://localhost:5173",
+    "http://192.168.1.24:5173",  # si usás tu IP local y el mismo puerto
 ]
 
 # Default primary key field type
